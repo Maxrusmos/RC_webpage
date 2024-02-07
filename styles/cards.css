@@ -1,3 +1,7 @@
+.main__cards-block {
+  margin-bottom: 28px;
+}
+
 .flex__cards-block {
   display: flex;
   justify-content: center;
