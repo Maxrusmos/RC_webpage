@@ -15,14 +15,27 @@
       font-weight: 500;
     }
   }
-}
-  >.members__list {
-    background: url('images/steel.cover.svg') no-repeat center center;
+  > .members__list {
+    background: url("../images/steel.cover.svg");
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px; /* Отступы вокруг логотипов внутри контейнера */
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 62px;
+    padding: 58px 0 58px 0px;
+    box-sizing: border-box;
+    height: 697px;
+    > .members__list-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
   }
+}
+
+.logo1 {
+  padding-top: 10px;
+}
 
 .logo {
   position: relative;
@@ -55,8 +68,3 @@
 .logo:hover .color-logo {
   opacity: 1;
 }
-
-
-
-
-

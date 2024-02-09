@@ -33,10 +33,12 @@
   }
 }
 
+
+
 .logo {
   position: relative;
-  width: 100px; /* Ширина блока с логотипом */
-  height: 100px; /* Высота блока с логотипом */
+  width: 160px; /* Ширина блока с логотипом */
+  height: 120px; /* Высота блока с логотипом */
   margin: 10px; /* Отступы между логотипами */
 }
 
@@ -63,4 +65,24 @@
 
 .logo:hover .color-logo {
   opacity: 1;
+}
+
+.logo-info {
+  position: absolute;
+  width: 100%; /* Match the logo width */
+  bottom: -40px; /* Adjust based on the space needed */
+  text-align: center;
+  font-size: 14px; /* Adjust as needed */
+  color: #000000; /* Choose a color that fits the design */
+  font-family: "Exo2.0", serif;
+}
+
+.logo-info a {
+  color: #e38c1d; /* Color for the link */
+  text-decoration: none; /* No underline */
+  font-weight: bold;
+}
+
+.logo-info a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
