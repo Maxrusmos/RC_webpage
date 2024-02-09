@@ -21,25 +21,77 @@
     flex-direction: column;
     width: 1200px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     gap: 62px;
-    padding: 58px 0 58px 0px;
+    padding: 0x 0 0 0px;
     box-sizing: border-box;
     height: 697px;
     > .members__list-row {
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      /* justify-content: space-around; */
+      gap: 136px;
     }
   }
 }
 
-
+.logo__main-href {
+  display: inline-block;
+  text-decoration: none;
+}
 
 .logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo__images {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 174px;
+}
+
+.bw-logo {
+  width: 100%;
+  height: auto;
+}
+
+.color-logo {
+  display: none;
+}
+
+.logo-info {
+  width: 160px;
+  text-align: center;
+  > h3 {
+    margin: 0;
+    font-family: "Exo2.0", serif;
+    font-size: 24px;
+    color: black;
+  }
+
+  > span {
+    color: #e38c1d;
+    text-decoration: none;
+    font-family: "Exo2.0", serif;
+    font-size: 14px;
+  }
+}
+
+/* .color-logo {
+  display: none;
+} */
+
+/* .logo {
   position: relative;
-  width: 160px; /* Ширина блока с логотипом */
-  height: 120px; /* Высота блока с логотипом */
-  margin: 10px; /* Отступы между логотипами */
+  width: 160px; 
+  height: 120px; 
+  margin: 10px; 
 }
 
 .logo img {
@@ -68,21 +120,22 @@
 }
 
 .logo-info {
-  position: absolute;
-  width: 100%; /* Match the logo width */
-  bottom: -40px; /* Adjust based on the space needed */
+  position: abso
+  lute;
+  width: 100%; 
+  bottom: -40px; 
   text-align: center;
-  font-size: 14px; /* Adjust as needed */
-  color: #000000; /* Choose a color that fits the design */
+  font-size: 14px; 
+  color: #000000; 
   font-family: "Exo2.0", serif;
 }
 
 .logo-info a {
-  color: #e38c1d; /* Color for the link */
-  text-decoration: none; /* No underline */
+  color: #e38c1d;
+  text-decoration: none;
   font-weight: bold;
 }
 
 .logo-info a:hover {
-  text-decoration: underline; /* Underline on hover */
-}
+  text-decoration: underline; 
+} */
