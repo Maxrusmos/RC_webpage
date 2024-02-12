@@ -23,15 +23,15 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    gap: 62px;
-    padding: 0x 0 0 0px;
+    gap: 42px;
+    padding: 48px 0 48px 0;
     box-sizing: border-box;
     height: 697px;
     > .members__list-row {
       display: flex;
       align-items: center;
       /* justify-content: space-around; */
-      gap: 136px;
+      gap: 62px;
     }
   }
 }
@@ -47,13 +47,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 240px;
 }
 
 .logo__images {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 120px;
-  width: 174px;
+  width: 120px;
+  margin-bottom: 18px;
 }
 
 .bw-logo {
@@ -65,6 +68,14 @@
   width: 100%;
   height: auto;
   display: none;
+}
+
+.scaled {
+  transform: scale(1.4);
+}
+
+.evraz {
+  transform: translateY(50px);
 }
 
 .logo:hover .bw-logo {
@@ -80,12 +91,12 @@
 }
 
 .logo-info {
-  width: 160px;
+  width: 100%;
   text-align: center;
   > h3 {
     margin: 0;
     font-family: "Exo2.0", serif;
-    font-size: 24px;
+    font-size: 18px;
     color: black;
   }
 
