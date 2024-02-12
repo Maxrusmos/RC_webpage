@@ -61,9 +61,23 @@
   height: auto;
 }
 
-/* .color-logo {
+.color-logo {
+  width: 100%;
+  height: auto;
   display: none;
-} */
+}
+
+.logo:hover .bw-logo {
+  display: none;
+}
+
+.logo:hover .color-logo {
+  display: block;
+}
+
+.bw-logo:hover {
+  display: none;
+}
 
 .logo-info {
   width: 160px;
@@ -83,21 +97,13 @@
   }
 }
 
- /* .color-logo { 
-  display: none;
-}  */
-
-.logo { 
-  position: relative;
-  width: 160px; 
-  height: 120px; 
-  margin: 10px; 
+/* .logo { */
+/* width: 160px;
+  height: 120px;
+  margin: 10px;
 }
 
 .logo img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: auto;
   transition: opacity 0.4s ease-in-out;
@@ -120,13 +126,12 @@
 }
 
 .logo-info {
-  position: abso
-  lute;
-  width: 100%; 
-  bottom: -40px; 
+  position: absolute;
+  width: 100%;
+  bottom: -40px;
   text-align: center;
-  font-size: 14px; 
-  color: #000000; 
+  font-size: 14px;
+  color: #000000;
   font-family: "Exo2.0", serif;
 }
 
@@ -137,5 +142,5 @@
 }
 
 .logo-info a:hover {
-  text-decoration: underline; 
-} 
+  text-decoration: underline;
+} */
